@@ -18,7 +18,7 @@ const DepartmentSearch = () => {
   return (
     <div className='flex'>
       <DepartmentGroup departments={data?.categories[0]?.children} handleSetSlug={setSlug} />
-      <SearchBar customSearchPageUrl={slug} placeholder='Que buscas... vtex-u' displayMode="search-adn-clear-buttons" />
+      <SearchBar customSearchPageUrl={slug} placeholder='Que buscas... vtex-u' displayMode="search-and-clear-buttons" />
     </div>
   );
 };
